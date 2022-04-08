@@ -68,6 +68,9 @@ const PaymentStyled = styled.section`
   .card-con {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    @media screen and (max-width: 1206px){
+            grid-template-columns: repeat(1, 1fr);
+        }
     grid-gap: 3rem;
     padding-top: 7.4rem;
   }

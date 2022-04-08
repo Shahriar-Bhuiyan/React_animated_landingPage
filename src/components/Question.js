@@ -37,21 +37,26 @@ const QuestionStyled = styled.div`
   transition: all 0.5s ease-in-out;
   .q-con {
     transition: all 0.4s ease-in-out;
+    .parent-content{
+      position:relative;
+    }
   }
   h4 {
     color: #16194f;
   }
   .content.show {
-    height: auto;
     transition: all 0.5s ease-in-out;
-    overflow:none;
-    padding: 1rem 0rem;
+    overflow:none; 
+    position:relative;
+    height:95px;
+    margin:50px 0px;
+    
   }
   .content {
-    padding: 0rem 0rem;
-    height:0px;
+    height:calc( 0px - 0px);
     transition: all 0.6s ease-in;
     overflow:hidden;
+    position:relative;
   }
   
   .toogle-title {

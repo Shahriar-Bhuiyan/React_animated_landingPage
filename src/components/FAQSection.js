@@ -40,8 +40,8 @@ function FAQSection() {
   );
 }
 const FaqStyled = styled.section`
+  height:auto;
   .c-para {
-    width: 60%;
     margin: 0 auto;
   }
   .question-con{

@@ -54,7 +54,7 @@ const ChartStyled = styled.section`
                 .stats-money{
                     display: flex;
                     padding-bottom: 1.3rem;
-                    justify-content: space-between;
+                    justify-content: space-around;
                 }
             }
         }
